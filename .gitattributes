@@ -61,3 +61,7 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+###############################################################################
+# GitHub language stats - exclude vendored/library files
+###############################################################################
+bulkbooksweb/wwwroot/lib/** linguist-vendored
